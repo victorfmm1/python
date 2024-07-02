@@ -1,0 +1,11 @@
+def soma(a, b, d):
+    c = a + b + d
+    if c %2 == 0:
+        return "par"
+    else:
+        return "impar"
+    return c 
+    
+print(soma(4, 9,3))
+print(soma(15, 9,3))
+print(soma(25, 9,3))
